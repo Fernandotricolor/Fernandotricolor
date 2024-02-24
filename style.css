@@ -4,14 +4,46 @@
     box-sizing: border-box;
 }
 
-html, body, aside {
+html, body, aside, main, section {
     height: 100%;
 }
-
+section{
+    max-width: 900px;
+    padding: 5% 0 0 300px;
+  }
+  .section-title {
+    font-size: 56px;
+  }
+  
+  .section-description {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  
+  
+html{
+    scroll-behavior: smooth;
+}
+/* SECTIONS */
+section {
+    max-width: 900px;
+    padding: 5% 0 0 300px;
+  }
+  
+  .section-title {
+    font-size: 56px;
+  }
+  
+  .section-description {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+  }
 .aside-wrap {
     background-image: linear-gradient(to bottom right, red, black);
     width: 240px;
-    padding: 100px 0px 0px 20px;
+    padding: 100px 20px;
     position: fixed;
       
 }
@@ -25,6 +57,7 @@ html, body, aside {
 
 .aside-wrap .menu-list {
     list-style: none;
+    margin-top: 20px;
 }
 
 .aside-wrap .menu-item {
@@ -39,3 +72,9 @@ html, body, aside {
     font-weight: bold;
     font-size: 18px;
 }
+/* SECTION HOME */
+#home .email-link {
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+  }
